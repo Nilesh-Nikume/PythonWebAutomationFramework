@@ -1,0 +1,7 @@
+2026-02-28 13:18:00,436 | INFO | test_user_login_TC_01 | test_user_login_TC_01 | 41 | ===== Test Started: Invalid Login =====
+2026-02-28 13:18:00,436 | INFO | test_user_login_TC_01 | test_user_login_TC_01 | 45 | Entering Email
+2026-02-28 13:18:02,083 | INFO | test_user_login_TC_01 | test_user_login_TC_01 | 48 | Entering Password
+2026-02-28 13:18:02,524 | INFO | test_user_login_TC_01 | test_user_login_TC_01 | 51 | Clicking Sign In
+2026-02-28 13:18:03,702 | INFO | test_user_login_TC_01 | test_user_login_TC_01 | 54 | Waiting for error message
+2026-02-28 13:18:04,630 | INFO | test_user_login_TC_01 | test_user_login_TC_01 | 61 | Captured Error Message: Your email, password, IP address or location did not match
+2026-02-28 13:18:05,694 | INFO | test_user_login_TC_01 | test_user_login_TC_01 | 74 | ===== Test Passed: Invalid Login =====

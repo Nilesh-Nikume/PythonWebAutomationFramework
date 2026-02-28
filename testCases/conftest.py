@@ -4,8 +4,6 @@ from selenium import webdriver
 chrom_option = webdriver.ChromeOptions()
 # chrom_option.add_argument("--headless")
 
-from selenium import webdriver
-
 
 # Multiple browser Testing
 def pytest_addoption(parser):

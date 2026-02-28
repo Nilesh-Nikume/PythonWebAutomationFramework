@@ -12,7 +12,8 @@ class LoginPage:
     Email_Address_ID = "login-username"
     Pass_word_ID = "login-password"
     Sigh_ID = "js-login-btn"
-    Error_message_Id = "js-notification-box-msg"
+    Error_message_Id = (By.ID, "js-notification-box-msg")
+    Sign_Up
 
     def enter_emaiId(self, email):
         self.driver.find_element(By.ID, self.Email_Address_ID).send_keys(email)
@@ -23,5 +24,5 @@ class LoginPage:
     def click_sign_in_button(self):
         self.driver.find_element(By.ID, self.Sigh_ID).click()
 
-    def ger_error_message(self):
-        return self.driver.find_elment(By.ID, self.Error_message_Id).text
+    def get_error_message(self):
+        return self.driver.find_element(*self.Error_message_Id).text

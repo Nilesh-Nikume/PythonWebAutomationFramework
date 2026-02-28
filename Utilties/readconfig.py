@@ -23,6 +23,12 @@ class ReadConfig:
         Password = config.get('login data', 'password')
         return Password
 
-    # @staticmethod
-    # def get_base_url():
-    #     return config.get('environment', 'base_url')
+    @staticmethod
+    def valid_user_email():
+        user_email = config.get("login data", "valid_user")
+        return user_email
+
+    @staticmethod
+    def valid_user_password():
+        user_password = config.get("login data", "valid_user")
+        return user_password
