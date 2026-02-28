@@ -13,7 +13,7 @@ class LoginPage:
     Pass_word_ID = "login-password"
     Sigh_ID = "js-login-btn"
     Error_message_Id = (By.ID, "js-notification-box-msg")
-    Sign_Up
+    #Sign_Up
 
     def enter_emaiId(self, email):
         self.driver.find_element(By.ID, self.Email_Address_ID).send_keys(email)
