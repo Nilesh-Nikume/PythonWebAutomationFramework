@@ -1,0 +1,7 @@
+[32mINFO    [0m test_user_login_TC_01:test_vwo_loginpage.py:55 ===== Test Started: Invalid Login =====
+[32mINFO    [0m test_user_login_TC_01:test_vwo_loginpage.py:59 Entering Email
+[32mINFO    [0m test_user_login_TC_01:test_vwo_loginpage.py:62 Entering Password
+[32mINFO    [0m test_user_login_TC_01:test_vwo_loginpage.py:65 Clicking Sign In
+[32mINFO    [0m test_user_login_TC_01:test_vwo_loginpage.py:68 Waiting for error message
+[32mINFO    [0m test_user_login_TC_01:test_vwo_loginpage.py:75 Captured Error Message: Your email, password, IP address or location did not match
+[32mINFO    [0m test_user_login_TC_01:test_vwo_loginpage.py:88 ===== Test Passed: Invalid Login =====
